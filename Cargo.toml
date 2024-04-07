@@ -1,5 +1,6 @@
 [workspace]
 
 members = [
-  "brainfuck_intptr",
+  "cli",
+  "interpreter",
 ]

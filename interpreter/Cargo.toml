@@ -1,5 +1,5 @@
 [package]
-name = "brainfuck_intptr"
+name = "interpreter"
 version = "0.1.0"
 edition = "2021"
 
@@ -10,5 +10,5 @@ thiserror = "1.0"
 criterion = "0.3"
 
 [[bench]]
-name = "intptr_bench"
+name = "bench"
 harness = false
