@@ -1,7 +1,5 @@
-use std::{
-    fs,
-    io::{self, Write},
-};
+use std::fs;
+use std::io::{self, Write};
 
 use anyhow::Result;
 use clap::Parser;

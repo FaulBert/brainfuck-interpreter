@@ -1,4 +1,6 @@
-use std::{collections::LinkedList, io};
+use std::collections::LinkedList;
+use std::io;
+
 use thiserror::Error;
 
 const MEMORY_SIZE: usize = 30_000;

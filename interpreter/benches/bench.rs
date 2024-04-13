@@ -1,5 +1,5 @@
-use brainfuck_interpreter::interpret;
 use criterion::{criterion_group, criterion_main, Criterion};
+use interpreter::interpret;
 
 fn fibonacci() -> String {
     let source = "+++++++++++
